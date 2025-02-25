@@ -4,13 +4,14 @@ import { useState } from "react";
 const ProjectSection =() => {
     const projects = [
         {
-            id: 1,
-            title: "Financial Dashboard",
-            tags: ["React", "Tailwind CSS", "Firebase"],
-            description: "This is a sample description that simply describes what the projects does",
-            fullDescription:"This is a sample full description that helps describes what is is exactly that the project does and what tools I used and the concepts it best showcases.",
-            image: "/Dashboard.png",
-            techStack: ["React", "AWS", "CloudFlare", "TailwindCSS", "Nodejs"],
+          id: 1,
+          title: "Financial Dashboard",
+          tags: ["React", "Tailwind CSS", "Firebase"],
+          description: "This full-stack financial dashboard provides users with a seamless experience to track their invoices and customers. Featuring a secure authentication and login system, users can access a dynamic home screen displaying key financial metrics, including collected invoices, pending invoices, total invoices, and total customers. Built with React.js and styled using Tailwind CSS, the app efficiently fetches data, handles errors, and optimizes performance with static and dynamic rendering. Additionally, metadata management ensures a smooth and SEO-friendly experience.",
+          fullDescription:"Username: user@nextmail.com Password: 123456",
+          web: "Financial Dashboard Login",
+          image: "/Dashboard.png",
+          techStack: ["React", "AWS", "CloudFlare", "TailwindCSS", "Nodejs"],
         },
         {
             id: 2, 

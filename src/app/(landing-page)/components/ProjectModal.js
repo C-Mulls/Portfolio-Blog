@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { X, ChevronRight, ChevronLeft } from 'lucide-react';
 import { useRef } from "react";
+import Link from "next/link";
 
 export default function ProjectModal({ project, onClose, onNext, onPrev }) {
     const modalRef = useRef();
@@ -32,6 +33,9 @@ export default function ProjectModal({ project, onClose, onNext, onPrev }) {
                     <div className="space-y-4 md:w-1/2">
                         <p className="text-gray-300">{project.description}</p>
                         <p className="text-gray-300">{project.fullDescription}</p>
+                        <p>
+                        <Link href="https://nextjs-dashboard-pearl-one-97.vercel.app/" className="text-blue-500">{project.web}</Link>
+                        </p>
                         <div>
                             <h3 className="font-semibold mb-2 text-primary">Tech Stack:</h3>
                             <ul className="list-disc list-inside">

@@ -16,7 +16,7 @@ const Navbar = () => {
                 >
                     <ul className="flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0">
                         <li key="about">
-                            <Link href="/about" 
+                            <Link href={`/posts/3`}
                             className="hover:text-slate-200">About</Link>
                         </li>
                         <li key="projects">

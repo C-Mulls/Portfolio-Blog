@@ -8,7 +8,7 @@ const Navbar = () => {
                 href={"/"}
                 className="text-2xl md:text-3xl text-white font-normal"
                 >
-                    WebBlog
+                    Connor Mullins Portfolio
                 </Link>
                 <div 
                 className="menu hidden md:block md:w-auto"

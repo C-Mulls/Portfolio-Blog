@@ -34,11 +34,15 @@ export default function ProjectModal({ project, onClose, onNext, onPrev }) {
                         <p className="text-gray-300">{project.description}</p>
                         <p className="text-gray-300">{project.fullDescription}</p>
                         <p>
-                        <Link href="https://nextjs-dashboard-pearl-one-97.vercel.app/" className="text-blue-500">{project.web1}</Link>
+                        <Link href="https://nextjs-dashboard-pearl-one-97.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-blue-500">
+                        {project.web1}
+                        </Link>
+                        {" | "}
+                        <Link href="https://ai-quizz-generator.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-blue-500">
+                        {project.web2}
+                        </Link>
                         </p>
-                        <p>
-                            <Link href="https://ai-quizz-generator.vercel.app/" className="text-blue-500">{project.web2}</Link>
-                            </p>
+
                         <div>
                             <h3 className="font-semibold mb-2 text-primary">Tech Stack:</h3>
                             <ul className="list-disc list-inside">

@@ -11,6 +11,7 @@ const ProjectSection =() => {
           fullDescription:"Username: user@nextmail.com Password: 123456",
           web: "Financial Dashboard Login",
           image: "/Dashboard.png",
+          url: "https://nextjs-dashboard-pearl-one-97.vercel.app/",
           techStack: ["React", "AWS", "CloudFlare", "TailwindCSS", "Nodejs"],
         },
         {
@@ -21,6 +22,7 @@ const ProjectSection =() => {
             fullDescription:"This project uses TypeScript and NextJS to build the front-end. Langchain is used to manage AI requests and responses.",
             web: "AI-Quiz Generator",
             image: "/AIQuiz.png",
+            url: "https://ai-quizz-generator.vercel.app/",
             techStack: ["TypeScript", "NextJS", "OpenAI", "TailwindCSS", "Nodejs", "Stripe API"],
         },
         {

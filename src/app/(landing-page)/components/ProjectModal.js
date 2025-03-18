@@ -33,6 +33,7 @@ export default function ProjectModal({ project, onClose, onNext, onPrev }) {
                     <div className="space-y-4 md:w-1/2">
                         <p className="text-gray-300">{project.description}</p>
                         <p className="text-gray-300">{project.fullDescription}</p>
+                        <div>
                         <a
                             href={project.url} // Dynamically set the link
                             target="_blank"
@@ -42,6 +43,7 @@ export default function ProjectModal({ project, onClose, onNext, onPrev }) {
                         >
                         {project.web}
                         </a>
+                        </div>
 
                         <div>
                             <h3 className="font-semibold mb-2 text-primary">Tech Stack:</h3>

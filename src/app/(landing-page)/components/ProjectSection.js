@@ -19,7 +19,7 @@ const ProjectSection =() => {
             title: "AI Quiz Generator",
             tags: ["NextJS", "MongoDB", "AWS"],
             description: "A quiz generator that uses Open-AI to generate questions.",
-            fullDescription:"This project uses TypeScript and NextJS to build the front-end. Langchain is used to manage AI requests and responses.",
+            fullDescription:"This project uses TypeScript and NextJS to build the front-end. Langchain is used to manage AI requests and responses.This project uses TypeScript and NextJS to build the front-end. Langchain is used to manage AI requests and responses.This project uses TypeScript and NextJS to build the front-end. Langchain is used to manage AI requests and responses.",
             web: "AI Quiz Generator",
             image: "/AIQuiz.png",
             url: "https://ai-quizz-generator.vercel.app/",

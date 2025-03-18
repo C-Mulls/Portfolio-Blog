@@ -34,14 +34,14 @@ export default function ProjectModal({ project, onClose, onNext, onPrev }) {
                         <p className="text-gray-300">{project.description}</p>
                         <p className="text-gray-300">{project.fullDescription}</p>
                         <a
-  href={project.url} // Dynamically set the link
-  target="_blank"
-  rel="noopener noreferrer"
-  className="text-blue-500"
-  onClick={() => console.log(`Navigating to: ${project.web}`)}
->
-  {project.web}
-</a>
+                            href={project.url} // Dynamically set the link
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-blue-500"
+                            onClick={() => console.log(`Navigating to: ${project.web}`)}
+                        >
+                        {project.web}
+                        </a>
 
                         <div>
                             <h3 className="font-semibold mb-2 text-primary">Tech Stack:</h3>

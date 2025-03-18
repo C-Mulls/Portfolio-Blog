@@ -15,12 +15,12 @@ const ProjectSection =() => {
         },
         {
             id: 2, 
-            title: "AI Summarization Tool",
+            title: "AI Quiz Generator",
             tags: ["NextJS", "MongoDB", "AWS"],
-            description: "This is a sample description that simply describes what the projects does",
-            fullDescription:"This is a sample full description that helps describes what is is exactly that the project does and what tools I used and the concepts it best showcases.",
-            image: "/Dashboard.png",
-            techStack: ["React", "PayloadCMS", "CloudFlare", "TailwindCSS", "Nodejs"],
+            description: "A quiz generator that uses Open-AI to generate questions.",
+            fullDescription:"This project uses TypeScript and NextJS to build the front-end. Langchain is used to manage AI requests and responses.",
+            image: "/AIQuiz.png",
+            techStack: ["TypeScript", "NextJS", "OpenAI", "TailwindCSS", "Nodejs", "Stripe API"],
         },
         {
             id: 3,
@@ -33,12 +33,12 @@ const ProjectSection =() => {
         },
         {
             id: 4,
-            title: "AI Quiz Generator",
+            title: "AI Summerization Tool",
             tags: ["React", "Tailwind CSS", "Firebase"],
             description: "This is a sample description that simply describes what the projects does",
             fullDescription:"This is a sample full description that helps describes what is is exactly that the project does and what tools I used and the concepts it best showcases.",
             image: "/Dashboard.png",
-            techStack: ["React", "AWS", "CloudFlare", "TailwindCSS", "Nodejs"],
+            techStack: ["React", "PayloadCMS", "CloudFlare", "TailwindCSS", "Nodejs"],
         },
         {
             id: 5,

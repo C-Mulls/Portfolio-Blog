@@ -3,7 +3,41 @@ import ProjectModal from "./ProjectModal";
 import { useState } from "react";
 const ProjectSection =() => {
     const projects = [
-        {
+      {
+        id: 1, 
+        title: "Full Stack Saas Presentation Builder",
+        tags: ["OpenAi", "TypeScript", "Prisma", "Clerk", "LemonSqueezy"],
+        description: "A complete Saas webservice that showcases database comprehention and proper use cases of Restful API's.",
+        fullDescription:"This complete full stack function Saas company is a plug and play ready web service that gives users a platform to build, design and sell there presentations on a intuative market place. With both manual designs by users as well as prompt driven AI generated presentaions.",
+        web: "AI Presentation Builder E-Commerce Saas Company",
+        image: "/vivid.png",
+        url: "https://vivid-presentation-generator.vercel.app/",
+        techStack: ["TypeScript", "NextJS", "OpenAI", "TailwindCSS", "Figma", "LemonSqueezy", "Neon"],
+    },
+    {
+        id: 2, 
+        title: "AI Quiz Generator",
+        tags: ["NextJS", "MongoDB", "AWS"],
+        description: "A quiz generator that uses Open-AI to generate questions.",
+        fullDescription:"This AI Quiz Generator project is a powerful web application designed to generate quizzes using artificial intelligence. This project leverages TypeScript and Next.js for a robust and scalable front-end, while LangChain is used to efficiently handle AI-powered question generation.",
+        web: "AI Quiz Generator",
+        image: "/AIQuiz.png",
+        url: "https://ai-quizz-generator.vercel.app/",
+        techStack: ["TypeScript", "NextJS", "OpenAI", "TailwindCSS", "Nodejs", "Stripe API"],
+    },
+    {
+        id: 3,
+        title: "Financial Dashboard",
+        tags: ["React", "Tailwind CSS", "Firebase"],
+        description: "This full-stack financial dashboard provides users with a seamless experience to track their invoices and customers. Featuring a secure authentication and login system, users can access a dynamic home screen displaying key financial metrics, including collected invoices, pending invoices, total invoices, and total customers. Built with React.js and styled using Tailwind CSS, the app efficiently fetches data, handles errors, and optimizes performance with static and dynamic rendering. Additionally, metadata management ensures a smooth and SEO-friendly experience.",
+        fullDescription:"Username: user@nextmail.com Password: 123456",
+        web: "Financial Dashboard Login",
+        image: "/Dashboard.png",
+        url: "https://nextjs-dashboard-pearl-one-97.vercel.app/",
+        techStack: ["React", "AWS", "CloudFlare", "TailwindCSS", "Nodejs"],
+      },
+
+       /* {
           id: 1,
           title: "Financial Dashboard",
           tags: ["React", "Tailwind CSS", "Firebase"],
@@ -61,6 +95,7 @@ const ProjectSection =() => {
             image: "/Dashboard.png",
             techStack: ["React", "AWS", "CloudFlare", "TailwindCSS", "Nodejs"],
         }
+        */
     ];
 
     const [selectedProject, setSelectedProject] = useState(null);

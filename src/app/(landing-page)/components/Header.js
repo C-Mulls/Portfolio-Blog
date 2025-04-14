@@ -16,11 +16,7 @@ const Navbar = () => {
                 >
                     <ul className="flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0">
                         <li key="about">
-<<<<<<< HEAD
-                            <Link href={`/posts/3`}
-=======
                             <Link href={`/posts/3`} 
->>>>>>> 94bb57f (update to the contact me button working as well as new project layout)
                             className="hover:text-slate-200">About</Link>
                         </li>
                         <li key="projects">

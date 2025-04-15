@@ -48,7 +48,7 @@ const HeroSection = () => {
           </p>
           <div className="flex mt-10 gap-4">
             <Link href={`/posts/3`} className="px-8 py-3 rounded-lg bg-primary-500 text-white font-medium hover:bg-primary-400">About Me</Link>
-            <button className="px-8 py-3 rounded-lg border border-gray-600 hover:border-primary-400 font-medium bg-slate-900">Contact Me</button>
+            <Link href="#contact" className="px-8 py-3 rounded-lg border border-gray-600 hover:border-primary-400 font-medium bg-slate-900">Contact Me</Link>
           </div>
       </div>
     )

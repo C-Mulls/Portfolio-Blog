@@ -2,6 +2,7 @@ import ProjectSection from "./components/ProjectSection";
 import PostsSection from "./components/PostsSection";
 import Link from "next/link";
 import HeroSection from "./components/HeroSection";
+import Mailsend from "./components/Mailsend";
 
 export default function Home() {
   return (
@@ -9,6 +10,8 @@ export default function Home() {
       <HeroSection />
       <ProjectSection />
       <PostsSection />
+      <Mailsend />
     </div>
+    
   );
 }

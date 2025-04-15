@@ -4,12 +4,23 @@ import { postgresAdapter } from '@payloadcms/db-postgres';
 import { buildConfig } from 'payload';
 import { Posts } from "./src/app/collections/Posts";
 
+const ContactMessages = {
+  slug: 'messages',
+  admin: {
+    useAsTitle: 'email',
+  },
+  fields: [
+    { name: 'email', type: 'text', required: true },
+    { name: 'note', type: 'textarea', required: true },
+  ],
+};
+
 export default buildConfig({
   // If you'd like to use Rich Text, pass your editor here
   editor: lexicalEditor(),
 
   // Define and configure your collections in this array
-  collections: [Posts],
+  collections: [Posts, ContactMessages],
 
   // Your Payload secret - should be a complex and secure string, unguessable
   secret: process.env.PAYLOAD_SECRET || '',
@@ -26,3 +37,4 @@ export default buildConfig({
   // you don't need it!
   sharp,
 })
+

@@ -8,7 +8,7 @@ const ProjectSection =() => {
         title: "Full Stack Saas Presentation Builder",
         tags: ["OpenAi", "TypeScript", "Prisma", "Clerk", "LemonSqueezy"],
         description: "A complete Saas webservice that showcases database comprehention and proper use cases of Restful API's.",
-        fullDescription:"This complete full stack function Saas company is a plug and play ready web service that gives users a platform to build, design and sell there presentations on a intuative market place. With both manual designs by users as well as prompt driven AI generated presentaions.",
+        fullDescription:"This complete full stack function Saas company is a plug and play ready web service that gives users a platform to build, design and sell there presentations on a intuitive market place. With both manual designs by users as well as prompt driven AI generated presentaions.",
         web: "AI Presentation Builder E-Commerce Saas Company",
         image: "/vivid.png",
         url: "https://vivid-presentation-generator.vercel.app/",

@@ -5,7 +5,7 @@ const ProjectSection =() => {
     const projects = [
       {
         id: 1, 
-        title: "CRM/ Financial Dashboard",
+        title: "Cross-Platform CRM & Operations Dashboard",
         tags: ["ReactJS", "Materials CSS", "AG-Grid Tables", "Firebase Firestore, Auth, Cloud Functions", "Python", "Netsuite/Shopify API", "TypeScript", "NoSQL Database"],
         description: "An internal CRM dashboard that consolidates NetSuite and Shopify data in real time, enabling multi-department teams to manage customer relationships, accounts, and operational data through advanced UI filtering, source tracking, and account merging logic.",
         fullDescription:"A real-time CRM and financial dashboard for operational efficiency and multi-system integration. This enterprise-grade internal CRM system was built to unify and streamline customer and account management across departments. Designed with ReactJS, Firebase Firestore, and AG-Grid, it offers a highly interactive UI for data visualization, complete with advanced filtering, sorting, and relationship mapping.",

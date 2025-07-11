@@ -5,8 +5,19 @@ const ProjectSection =() => {
     const projects = [
       {
         id: 1, 
+        title: "CRM/ Financial Dashboard",
+        tags: ["ReactJS", "Materials CSS", "AG-Grid Tables", "Firebase Firestore, Auth, Cloud Functions", "Python", "Netsuite/Shopify API", "TypeScript", "NoSQL Database"],
+        description: "An internal CRM dashboard that consolidates NetSuite and Shopify data in real time, enabling multi-department teams to manage customer relationships, accounts, and operational data through advanced UI filtering, source tracking, and account merging logic.",
+        fullDescription:"A real-time CRM and financial dashboard for operational efficiency and multi-system integration. This enterprise-grade internal CRM system was built to unify and streamline customer and account management across departments. Designed with ReactJS, Firebase Firestore, and AG-Grid, it offers a highly interactive UI for data visualization, complete with advanced filtering, sorting, and relationship mapping.",
+        web: "CRM and Financial Analytics Dashboard",
+        image: "/crm:dash.png",
+        url: "https://crm-financialdashboard.web.app/",
+        techStack: ["TypeScript", "ReactJS", "Firebase Firestore (NoSQL Database)", "NetSuite (SuiteTalk ERP Integration)", "Shopify (Admin API with webhook support)"],
+    },
+      {
+        id: 2, 
         title: "Full Stack Saas Presentation Builder",
-        tags: ["OpenAi", "TypeScript", "Prisma", "Clerk", "LemonSqueezy"],
+        tags: ["OpenAI API", "TypeScript", "Prisma", "Clerk", "LemonSqueezy API", "Tailwind", "Figma"],
         description: "A complete Saas webservice that showcases database comprehention and proper use cases of Restful API's.",
         fullDescription:"This complete full stack function Saas company is a plug and play ready web service that gives users a platform to build, design and sell there presentations on a intuitive market place. With both manual designs by users as well as prompt driven AI generated presentaions.",
         web: "AI Presentation Builder E-Commerce Saas Company",
@@ -15,9 +26,9 @@ const ProjectSection =() => {
         techStack: ["TypeScript", "NextJS", "OpenAI", "TailwindCSS", "Figma", "LemonSqueezy", "Neon"],
     },
     {
-        id: 2, 
+        id: 3, 
         title: "AI Quiz Generator",
-        tags: ["NextJS", "MongoDB", "AWS"],
+        tags: ["NextJS", "MongoDB", "AWS Cloud", "Tailwind", "OpenAI API", "Python", "Stripe API"],
         description: "A quiz generator that uses Open-AI to generate questions.",
         fullDescription:"This AI Quiz Generator project is a powerful web application designed to generate quizzes using artificial intelligence. This project leverages TypeScript and Next.js for a robust and scalable front-end, while LangChain is used to efficiently handle AI-powered question generation.",
         web: "AI Quiz Generator",
@@ -26,15 +37,15 @@ const ProjectSection =() => {
         techStack: ["TypeScript", "NextJS", "OpenAI", "TailwindCSS", "Nodejs", "Stripe API"],
     },
     {
-        id: 3,
+        id: 4,
         title: "Financial Dashboard",
-        tags: ["React", "Tailwind CSS", "Firebase"],
+        tags: ["React", "Tailwind", "Firebase", "Javascript", "AWS Cloud"],
         description: "This full-stack financial dashboard provides users with a seamless experience to track their invoices and customers. Featuring a secure authentication and login system, users can access a dynamic home screen displaying key financial metrics, including collected invoices, pending invoices, total invoices, and total customers. Built with React.js and styled using Tailwind CSS, the app efficiently fetches data, handles errors, and optimizes performance with static and dynamic rendering. Additionally, metadata management ensures a smooth and SEO-friendly experience.",
         fullDescription:"Username: user@nextmail.com Password: 123456",
         web: "Financial Dashboard Login",
         image: "/Dashboard.png",
         url: "https://nextjs-dashboard-pearl-one-97.vercel.app/",
-        techStack: ["React", "AWS", "CloudFlare", "TailwindCSS", "Nodejs"],
+        techStack: ["ReactJS", "AWS", "CloudFlare", "TailwindCSS", "Nodejs"],
       },
 
        /* {
